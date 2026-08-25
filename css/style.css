@@ -285,3 +285,153 @@ p {
     }
 
 }
+/* =========================================
+   BUTTON SYSTEM
+   ========================================= */
+
+.btn-custom {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: 2px solid var(--primary-color);
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+    color: #ffffff;
+
+    transform: translateY(-1px);
+}
+
+
+/* Outline button */
+
+.btn-outline-custom {
+    display: inline-block;
+
+    background-color: transparent;
+    color: var(--primary-color);
+
+    border: 2px solid var(--primary-color);
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+.btn-outline-custom:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+
+    transform: translateY(-1px);
+}
+
+
+/* Small button */
+
+.btn-custom-sm {
+    padding: 7px 14px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+}
+
+
+/* Large button */
+
+.btn-custom-lg {
+    padding: 13px 26px;
+    font-size: 1.05rem;
+    border-radius: 9px;
+}
+
+/* =========================================
+   CARD SYSTEM
+   ========================================= */
+
+.custom-card {
+    background-color: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 12px;
+
+    padding: 24px;
+
+    height: 100%;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+/* Card hover */
+
+.custom-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Card title */
+
+.card-title-custom {
+    font-size: 1.2rem;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+}
+
+
+/* Card description */
+
+.card-text-custom {
+    color: var(--muted-text);
+
+    line-height: 1.6;
+
+    margin-bottom: 16px;
+}
+
+
+/* Card icon */
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #eef5ff;
+
+    color: var(--primary-color);
+
+    border-radius: 12px;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 18px;
+}
