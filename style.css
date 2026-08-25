@@ -1,0 +1,89 @@
+/* =========================================
+   LOCALHELP - DESIGN SYSTEM
+   ========================================= */
+
+/* ---------- COLORS ---------- */
+
+:root {
+    --primary-color: #2164a8;
+    --primary-dark: #174a7c;
+    --secondary-color: #f4b942;
+
+    --background-color: #f8fafc;
+    --surface-color: #ffffff;
+
+    --text-color: #1f2937;
+    --muted-text: #6b7280;
+
+    --border-color: #e5e7eb;
+
+    --success-color: #198754;
+    --danger-color: #dc3545;
+
+    /* ---------- DESIGN ---------- */
+
+    --border-radius: 12px;
+    --small-radius: 8px;
+
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    /* ---------- TYPOGRAPHY ---------- */
+
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------- GLOBAL STYLES ---------- */
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+
+/* ---------- HEADINGS ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-color);
+}
+
+
+/* ---------- LINKS ---------- */
+
+a {
+    text-decoration: none;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.btn-custom {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--small-radius);
+    padding: 10px 20px;
+    transition: 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--primary-dark);
+    color: white;
+}
+
+
+/* ---------- CARDS ---------- */
+
+.custom-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
