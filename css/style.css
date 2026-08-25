@@ -90,6 +90,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
 }
 
 .main-content {
@@ -225,4 +229,59 @@ body {
     color: var(--muted-text);
     max-width: 650px;
     margin: 0 auto;
+}
+/* =========================================
+   TYPOGRAPHY
+   ========================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-color);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.text-muted {
+    color: var(--muted-text) !important;
+}
+/* Mobile typography */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.35rem;
+    }
+
 }
