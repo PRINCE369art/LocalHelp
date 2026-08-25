@@ -87,3 +87,45 @@ a {
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
 }
+
+/* =========================================
+   NAVBAR POLISH
+   ========================================= */
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+.navbar-brand:hover {
+    color: var(--primary-dark);
+}
+
+.navbar .nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--primary-color);
+}
+
+.navbar .btn-custom {
+    padding: 9px 18px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
