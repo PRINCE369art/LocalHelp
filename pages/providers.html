@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Find Providers | LocalHelp</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+
+    <div class="container">
+
+        <a
+            class="navbar-brand fw-bold text-primary"
+            href="../index.html">
+
+            LocalHelp
+
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div
+            class="collapse navbar-collapse"
+            id="mainNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="../index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link active"
+                        href="providers.html">
+                        Find Providers
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- HEADER -->
+
+<section class="section section-light">
+
+    <div class="container">
+
+        <div class="text-center">
+
+            <span class="text-primary-custom fw-semibold">
+                LOCAL PROFESSIONALS
+            </span>
+
+            <h1 class="mt-2">
+                Find a Trusted Provider
+            </h1>
+
+            <p class="text-muted-custom">
+                Search and filter professionals based on
+                your requirements.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="custom-card mt-4">
+
+            <div class="row g-3">
+
+                <div class="col-12 col-md-5">
+
+                    <input
+                        type="text"
+                        id="providerSearch"
+                        class="form-control-custom"
+                        placeholder="Search by name or service">
+
+                </div>
+
+                <div class="col-12 col-md-4">
+
+                    <select
+                        id="serviceFilter"
+                        class="form-control-custom">
+
+                        <option value="all">
+                            All Services
+                        </option>
+
+                        <option value="Electrician">
+                            Electrician
+                        </option>
+
+                        <option value="Plumber">
+                            Plumber
+                        </option>
+
+                        <option value="Carpenter">
+                            Carpenter
+                        </option>
+
+                        <option value="Cleaner">
+                            Cleaner
+                        </option>
+
+                        <option value="Computer Repair">
+                            Computer Repair
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="col-12 col-md-3">
+
+                    <select
+                        id="availabilityFilter"
+                        class="form-control-custom">
+
+                        <option value="all">
+                            All Availability
+                        </option>
+
+                        <option value="Available">
+                            Available
+                        </option>
+
+                        <option value="Busy">
+                            Busy
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROVIDERS -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div
+            class="row g-4"
+            id="providerList">
+
+
+            <!-- PROVIDER 1 -->
+
+            <div
+                class="col-12 col-md-6 col-lg-4 provider-item"
+                data-name="Rajesh Kumar"
+                data-service="Electrician"
+                data-availability="Available">
+
+                <div class="custom-card h-100">
+
+                    <div class="d-flex align-items-center gap-3">
+
+                        <div class="provider-avatar">
+                            RK
+                        </div>
+
+                        <div>
+
+                            <h4 class="mb-1">
+                                Rajesh Kumar
+                            </h4>
+
+                            <p class="mb-0 text-muted-custom">
+                                Electrician
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-3">
+
+                        <span class="text-warning">
+                            ★★★★★
+                        </span>
+
+                        <span class="text-muted">
+                            4.8 (42 reviews)
+                        </span>
+
+                    </div>
+
+
+                    <p class="text-muted-custom mt-3">
+                        Experienced electrician providing
+                        residential electrical services.
+                    </p>
+
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>
+                            📍 Vapi
+                        </span>
+
+                        <span class="text-success">
+                            ● Available
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="provider-profile.html?id=rajesh"
+                        class="btn-custom w-100 mt-4">
+
+                        View Profile
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROVIDER 2 -->
+
+            <div
+                class="col-12 col-md-6 col-lg-4 provider-item"
+                data-name="Amit Patel"
+                data-service="Plumber"
+                data-availability="Available">
+
+                <div class="custom-card h-100">
+
+                    <div class="d-flex align-items-center gap-3">
+
+                        <div class="provider-avatar">
+                            AP
+                        </div>
+
+                        <div>
+
+                            <h4 class="mb-1">
+                                Amit Patel
+                            </h4>
+
+                            <p class="mb-0 text-muted-custom">
+                                Plumber
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-3">
+
+                        <span class="text-warning">
+                            ★★★★★
+                        </span>
+
+                        <span class="text-muted">
+                            4.7 (36 reviews)
+                        </span>
+
+                    </div>
+
+
+                    <p class="text-muted-custom mt-3">
+                        Professional plumber specializing
+                        in home plumbing solutions.
+                    </p>
+
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>
+                            📍 Vapi
+                        </span>
+
+                        <span class="text-success">
+                            ● Available
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="provider-profile.html?id=amit"
+                        class="btn-custom w-100 mt-4">
+
+                        View Profile
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROVIDER 3 -->
+
+            <div
+                class="col-12 col-md-6 col-lg-4 provider-item"
+                data-name="Suresh Sharma"
+                data-service="Carpenter"
+                data-availability="Busy">
+
+                <div class="custom-card h-100">
+
+                    <div class="d-flex align-items-center gap-3">
+
+                        <div class="provider-avatar">
+                            SS
+                        </div>
+
+                        <div>
+
+                            <h4 class="mb-1">
+                                Suresh Sharma
+                            </h4>
+
+                            <p class="mb-0 text-muted-custom">
+                                Carpenter
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-3">
+
+                        <span class="text-warning">
+                            ★★★★★
+                        </span>
+
+                        <span class="text-muted">
+                            4.6 (28 reviews)
+                        </span>
+
+                    </div>
+
+
+                    <p class="text-muted-custom mt-3">
+                        Furniture and woodwork specialist
+                        with 8 years of experience.
+                    </p>
+
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>
+                            📍 Sarigam
+                        </span>
+
+                        <span class="text-danger">
+                            ● Busy
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="provider-profile.html?id=suresh"
+                        class="btn-custom w-100 mt-4">
+
+                        View Profile
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROVIDER 4 -->
+
+            <div
+                class="col-12 col-md-6 col-lg-4 provider-item"
+                data-name="Neha Joshi"
+                data-service="Cleaner"
+                data-availability="Available">
+
+                <div class="custom-card h-100">
+
+                    <div class="d-flex align-items-center gap-3">
+
+                        <div class="provider-avatar">
+                            NJ
+                        </div>
+
+                        <div>
+
+                            <h4 class="mb-1">
+                                Neha Joshi
+                            </h4>
+
+                            <p class="mb-0 text-muted-custom">
+                                Cleaner
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-3">
+
+                        <span class="text-warning">
+                            ★★★★★
+                        </span>
+
+                        <span class="text-muted">
+                            4.9 (51 reviews)
+                        </span>
+
+                    </div>
+
+
+                    <p class="text-muted-custom mt-3">
+                        Home and deep cleaning services
+                        for residential customers.
+                    </p>
+
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>
+                            📍 Vapi
+                        </span>
+
+                        <span class="text-success">
+                            ● Available
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="provider-profile.html?id=neha"
+                        class="btn-custom w-100 mt-4">
+
+                        View Profile
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROVIDER 5 -->
+
+            <div
+                class="col-12 col-md-6 col-lg-4 provider-item"
+                data-name="Vikram Shah"
+                data-service="Computer Repair"
+                data-availability="Available">
+
+                <div class="custom-card h-100">
+
+                    <div class="d-flex align-items-center gap-3">
+
+                        <div class="provider-avatar">
+                            VS
+                        </div>
+
+                        <div>
+
+                            <h4 class="mb-1">
+                                Vikram Shah
+                            </h4>
+
+                            <p class="mb-0 text-muted-custom">
+                                Computer Repair
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-3">
+
+                        <span class="text-warning">
+                            ★★★★★
+                        </span>
+
+                        <span class="text-muted">
+                            4.8 (31 reviews)
+                        </span>
+
+                    </div>
+
+
+                    <p class="text-muted-custom mt-3">
+                        Laptop, desktop and software
+                        troubleshooting specialist.
+                    </p>
+
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>
+                            📍 Vapi
+                        </span>
+
+                        <span class="text-success">
+                            ● Available
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="provider-profile.html?id=vikram"
+                        class="btn-custom w-100 mt-4">
+
+                        View Profile
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="bg-dark text-light py-4">
+
+    <div class="container text-center">
+
+        <h5>LocalHelp</h5>
+
+        <p class="text-secondary mb-0">
+            Find. Connect. Get It Done.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<script src="../js/providers.js"></script>
+
+</body>
+
+</html>
