@@ -435,3 +435,51 @@ p {
 
     margin-bottom: 18px;
 }
+
+/* =========================================
+   UTILITY & DESIGN HELPERS
+   ========================================= */
+
+.text-primary-custom {
+    color: var(--primary-color);
+}
+
+.text-muted-custom {
+    color: var(--muted-text);
+}
+
+.bg-light-custom {
+    background-color: #f8fafc;
+}
+
+.bg-white-custom {
+    background-color: #ffffff;
+}
+
+.rounded-custom {
+    border-radius: 12px;
+}
+
+.rounded-small {
+    border-radius: 8px;
+}
+
+.shadow-custom {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.content-narrow {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-100-custom {
+    width: 100%;
+}
