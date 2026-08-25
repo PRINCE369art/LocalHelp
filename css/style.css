@@ -129,3 +129,58 @@ a {
 .navbar-toggler:focus {
     box-shadow: none;
 }
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.site-footer {
+    background-color: #17202a;
+    color: white;
+}
+
+.footer-brand {
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    color: #cbd5e1;
+    line-height: 1.7;
+    max-width: 450px;
+}
+
+.footer-heading {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    color: #cbd5e1;
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #cbd5e1;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-bottom p {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
