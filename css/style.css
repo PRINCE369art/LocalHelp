@@ -483,3 +483,43 @@ p {
 .w-100-custom {
     width: 100%;
 }
+
+/* =========================================
+   HOMEPAGE
+   ========================================= */
+
+.hero-section {
+    padding: 90px 0;
+    background: linear-gradient(
+        135deg,
+        #f8fbff 0%,
+        #eef5ff 100%
+    );
+}
+
+.hero-card {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.service-card {
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.hero-section .form-control-custom {
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+}
