@@ -72,7 +72,7 @@ if (registerForm) {
 
 
         message.innerHTML =
-            '<div class="alert alert-success">Registration successful! This is a Phase-I frontend prototype.</div>';
+            '<div class="alert alert-success">Registration successful!</div>';
 
     });
 
@@ -107,7 +107,7 @@ if (loginForm) {
 
 
         message.innerHTML =
-            '<div class="alert alert-success">Login successful! Backend authentication will be implemented in Phase II.</div>';
+            '<div class="alert alert-success">Login successful! Backend authentication will be pending.</div>';
 
     });
 
